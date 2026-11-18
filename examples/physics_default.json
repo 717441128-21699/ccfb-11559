@@ -1,0 +1,13 @@
+{
+  "run_speed": 8.0,
+  "jump_velocity": 14.0,
+  "gravity": 30.0,
+  "coyote_time": 0.1,
+  "double_jump": true,
+  "double_jump_velocity": 12.0,
+  "tick_rate": 60,
+  "max_fall_speed": 25.0,
+  "player_height": 0.9,
+  "spring_impulse": 22.0,
+  "max_flight_time": 10.0
+}
