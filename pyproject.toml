@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "levelcheck"
+version = "1.0.0"
+description = "2D 平台跳跃关卡通关静态校验:可达性、隐藏收集品、移动平台节拍"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "level tools" }]
+dependencies = []
+
+[project.scripts]
+levelcheck = "levelcheck.cli:main"
+
+[tool.setuptools]
+packages = ["levelcheck"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-q"
